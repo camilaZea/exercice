@@ -30,8 +30,10 @@ body{
 }
 
 .home{
-    background-color: #00648e1c;}
-    
-.fStyleItalique{
+    background-color: #00648e1c;
+}
+
+
+.fStyleItalique p{
     font-style: italic;
 }
