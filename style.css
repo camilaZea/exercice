@@ -12,12 +12,9 @@
  Text Domain:  twenty-nineteen-parent
 */
 
-.site-branding .site-title{
-	font-size:3em;
-	background-color:pink;
-}
-
-.site-branding .site-description{
-	font-size:2em;
-	background-color:pink;    
+.site-header.featured-image .site-featured-image {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
 }
