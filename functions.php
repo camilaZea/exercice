@@ -33,4 +33,4 @@ function extraire_cours( $query ) {
        $query->set( 'order', 'asc' );
     }
  }
- add_action( 'pre_get_posts', 'extraire_cours' );
+ add_action( 'pre_get_posts', 'extraire_cours' );   
