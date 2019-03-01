@@ -14,6 +14,7 @@ get_header();
 /** categorie cours **/  
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
+			<section class="grid-container"> 
 
 		<?php if ( have_posts() ) : ?>
 
@@ -22,7 +23,7 @@ get_header();
 					the_archive_title( '<h1 class="page-title">', '</h1>' );
 				?>
 			</header><!-- .page-header -->
-
+			
 			<?php
 			// Start the Loop.
 			while ( have_posts() ) :
@@ -47,7 +48,8 @@ get_header();
 
 		endif;
 		?>
-		</main><!-- #main -->
+		</section>
+	</main><!-- #main -->
 	</section><!-- #primary -->
 
 <?php
