@@ -45,6 +45,17 @@ body{
    
   }
 
+  .main-navigation {
+    display: block;
+    margin-top: 0.25rem;
+    text-align: center;
+    font-size: 3em;
+}
+
+.page-header{
+    display:none;
+}
+
 @media only screen and (min-width: 768px){
     .entry-title,  h2 {
     font-size: 1.3em!important;
@@ -55,7 +66,15 @@ body{
     .grid-container {
         
         grid-template-columns: 1fr  ;
-        
-       
+             
       }
+
+      .main-navigation {
+      
+        font-size: 1.5em;
+    }
+
+    .entry-title,  h2 {
+        font-size: 1em!important;
+        }} 
 } 

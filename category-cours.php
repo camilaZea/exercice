@@ -11,7 +11,7 @@
 
 get_header();
 ?>
-/** categorie cours **/  
+ 
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<section class="grid-container"> 
