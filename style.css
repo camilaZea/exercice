@@ -30,6 +30,10 @@
       grid-template-columns: 1fr;
 }
 
+.entry-title, h2 {
+  font-size: 1.2em;
+}
+
 @media only screen and (min-width: 600px) {
   .grid-container {
     -ms-grid-columns: 1fr 1fr;
@@ -49,6 +53,9 @@
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+  .entry-title, h2 {
+    font-size: 1.5em;
+  }
 }
 
 @media only screen and (min-width: 1379px) {
@@ -56,13 +63,12 @@
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
+  .entry-title, h2 {
+    font-size: 1.5em;
+  }
 }
 
 .site-header {
   text-align: center;
-}
-
-.page-header{
-    display:none;
 }
 /*# sourceMappingURL=style.css.map */
