@@ -57,4 +57,12 @@
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
+
+.site-header {
+  text-align: center;
+}
+
+.page-header{
+    display:none;
+}
 /*# sourceMappingURL=style.css.map */
