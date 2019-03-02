@@ -76,4 +76,12 @@
 .page-header {
   display: none;
 }
+
+body {
+  background-color: #efefef;
+}
+
+.entry-header {
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
