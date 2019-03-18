@@ -29,12 +29,10 @@
 	if (get_the_title()[4] == 6){
 		$couleur = '#003366';
 	};
+	
+	
 
  	the_title( sprintf( '<h2  class="entry-title"><a style="color:%s" href="%s" rel="bookmark">', $couleur , esc_url( get_permalink() ) ), '</a></h2>' );
-
-
-		
-
 
 
 ?>	 

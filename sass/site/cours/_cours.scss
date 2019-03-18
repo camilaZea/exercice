@@ -1,0 +1,62 @@
+ 
+
+///////////////////////////////////////////////////////////////////////////
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+   
+  }
+
+  .entry-title,  h2 {
+     font-size: 1.2em;
+    }
+
+
+  @include media(mobile){
+       .grid-container {
+        
+        grid-template-columns: 1fr 1fr ;
+              
+      }
+
+      .entry-title,  h2 {
+        font-size: 1.2em;
+       }
+  }
+
+  @include media(tablet){
+    .grid-container {
+     
+     grid-template-columns: 1fr 1fr 1fr;
+          
+   }
+
+   .entry-title,  h2 {
+    font-size: 1.5em;
+   }
+}
+
+@include media(desktop){
+    .grid-container {
+     
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+          
+   }
+
+   .entry-title,  h2 {
+    font-size: 1.5em;
+   }
+}
+
+@include media(wide){
+    .grid-container {
+     
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          
+   }
+
+   .entry-title,  h2 {
+    font-size: 1.5em;
+   }
+}

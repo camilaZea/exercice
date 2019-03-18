@@ -1,0 +1,21 @@
+/*
+ Theme Name:   Twenty nineteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty nineteen Child Theme
+ Author:       Camila Zea
+ Author URI:   http://example.com
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-nineteen-parent
+*/
+
+@import 'sass/variables-site/variables-site';
+@import 'sass/mixins/utilities';
+@import 'sass/navigation/navigation'; 
+@import 'sass/anim-entete';
+@import 'sass/site/site';
+
+
